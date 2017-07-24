@@ -1,7 +1,6 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-
 const Header  = () => {
     const { textStyle, viewStyle } = styles;
 
@@ -29,5 +28,4 @@ const styles = {
         fontSize: 20
     }
 };
-
 export default Header;
